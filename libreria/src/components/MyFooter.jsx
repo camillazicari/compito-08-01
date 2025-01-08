@@ -1,6 +1,6 @@
 const MyFooter = function() {
     return (
-        <footer className="mt-5 d-flex justify-content-center bg-dark text-white">
+        <footer className="d-flex justify-content-center bg-dark text-white">
     <div className="container-fluid" id="footer">
       <div className="row mb-3">
         <div className="col-md-12">
