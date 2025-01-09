@@ -7,6 +7,7 @@ const SingleBook = (props) => {
             <Col xs={3}className='mb-4'>
               <Card style={{height: "700px", width:"400px"}}>
                 <Card.Img
+                //onClick={}
                   src={props.img}
                   alt='Card image'
                   style={{objectFit: "cover", objectPosition:"top"}}

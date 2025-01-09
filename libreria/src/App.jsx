@@ -5,6 +5,7 @@ import MyFooter from './components/MyFooter';
 import Welcome from './components/Welcome';
 import AllTheBooks from './components/AllTheBooks';
 import BookList from './components/BookList';
+import books from './data/scifi.json';
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -13,7 +14,7 @@ function App() {
     <>
       <MyNav />
 
-      <BookList />
+      <BookList scifi={books} />
       <Welcome />
       <AllTheBooks />
 
